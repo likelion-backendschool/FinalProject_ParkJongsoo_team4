@@ -287,6 +287,8 @@
 
 ## **ERD**
 
+![Screen Shot 2022-10-19 at 15 50 45](https://user-images.githubusercontent.com/95225204/196617539-5667744f-0e63-40d0-b741-713c259b7947.png)
+
 -------------
 
 체크리스트
