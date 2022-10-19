@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<html>
+
+<head>
+    <title>list</title>
+</head>
+
+<body>
+<section>
+    <section>
+        <div class="container">
+            <h1>list</h1>
+
+            <ul>
+                <li th:each="article : ${articles}" class="flex gap-2 items-center">
+                    <a th:href="@{|/article/${article.id}|}" th:text="|번호 : ${article.id}|">
+                    </a>
+                    <a th:href="@{|/article/${article.id}|}" th:text="|제목 : ${article.title}|">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
